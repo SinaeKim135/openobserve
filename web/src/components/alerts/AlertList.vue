@@ -49,7 +49,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
               variant="primary"
               size="sm"
               :disabled="!destinations.length || !templates.length"
-              :title="!destinations.length ? t('alerts.noDestinations') : ''"
+              :title="!destinations.length ? t('alerts.noDestinations') : 'Create a new alert'"
               @click="
                 activeTab === 'anomalyDetection'
                   ? router.push({
