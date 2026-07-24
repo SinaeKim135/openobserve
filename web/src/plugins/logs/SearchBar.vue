@@ -839,7 +839,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                 :title="
                   isNaturalLanguageDetected && !searchObj.meta.nlpMode
                     ? t('search.generateQueryTooltip')
-                    : t('search.runQuery')
+                    : 'Run query to search logs'
                 "
                 class="tw:p-0 tw:h-[1.875rem]! element-box-shadow"
                 :class="[
